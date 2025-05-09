@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple to-do list application">
+    <meta name="author" content="Your Name">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="miniC todo">
+            <h1 class="h1 one">To-Do List</h1>
+            <input type="text" id="task" placeholder="Enter a task">
+            <button id="add">Add</button>
+            <div class="todoListsElem">
+                <ul id="todoList"></ul>
+            </div>
+        </div>
+        <div class="miniC done-tasks">
+            <h1 class="h1 two">Done Tasks</h1>
+            <div class="doneListsElem"></div>
+             <ul id="doneList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
